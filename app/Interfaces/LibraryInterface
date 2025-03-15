@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Interfaces;
+
+interface LibraryInterface
+{
+    public function insertData(array $data);
+    public function getAllData();
+    public function getData($id);
+    public function updateData($id, array $data);
+    public function deleteData($id);
+}
