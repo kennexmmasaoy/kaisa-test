@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Interfaces\LibraryInterface;
 use App\Models\BookCategoryModel;
 use App\Models\BookModel;
 
