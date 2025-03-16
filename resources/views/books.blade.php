@@ -88,8 +88,9 @@ function loadTable(){
                 { "data": null,
                   render : function(data, type,full){
                         return(
-                            '<a class="btn btn-sm btn-info" id="btnEdit" data-bookid="'+ data.book_id +'">Edit</a> '+ 
-                            '<a class="btn btn-sm btn-danger" id="btnDelete" >Delete</a>'
+                            '<a class="btn btn-sm btn-info" id="btnEdit" data-bookid="'+ data.book_id +'">Edit</a> ' 
+                            +'<a class="btn btn-sm btn-danger" id="btnDelete" >Delete</a>'
+                            // +'<a class="btn btn-sm btn-secondary" id="btn" >Borrow Book</a>'
                         )
                     }
                 }
